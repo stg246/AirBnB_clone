@@ -47,5 +47,5 @@ EOF  help  quit
 
 
 ## AUTHORS
-> Bright Aggrey
+> Bright Aggrey &
 > Kofi Oppong-Amoah
