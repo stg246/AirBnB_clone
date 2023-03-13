@@ -48,3 +48,4 @@ EOF  help  quit
 
 ## AUTRHORS
 > Bright Aggrey
+> Kofi Oppong-Amoah
