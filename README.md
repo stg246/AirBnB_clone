@@ -46,6 +46,6 @@ EOF  help  quit
 5. Type `quit` to exit the console.
 
 
-## AUTRHORS
+## AUTHORS
 > Bright Aggrey
 > Kofi Oppong-Amoah
