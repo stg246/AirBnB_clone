@@ -28,8 +28,8 @@ The command-line interpreter is built with the help of the python cmd module. It
 ```
 ▶./console.py
 
-Backend Interactive Console. Type help or ? to list commands
-(hbnb) 
+
+
 ```
 
 4. To find out more information about the console, type `? or help`
