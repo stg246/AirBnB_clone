@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-"""
-This module contains the Place Class that inherits from Basemodel
-"""
+""" Place module """
+
 
 from models.base_model import BaseModel
 
-class Place:
-    """This is the State class that define """
+
+class Place(BaseModel):
+    """ Place class """
+
     city_id = ""
     user_id = ""
     name = ""
@@ -18,3 +19,9 @@ class Place:
     latitude = 0.0
     longitude = 0.0
     amenity_ids = []
+
+    def __init__(self, *prmargs, **prmkwargs):
+        """
+            Constructor
+        """
+        super().__init__(*prmargs, **prmkwargs)

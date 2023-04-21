@@ -1,11 +1,17 @@
 #!/usr/bin/python3
-"""
-This module contains the Amenity Class that inherits from Basemodel
-"""
+""" Amenity module """
+
 
 from models.base_model import BaseModel
 
-class Amenity:
-    """This is the Amenity class that define """
+
+class Amenity(BaseModel):
+    """ Amenity class """
 
     name = ""
+
+    def __init__(self, *prmargs, **prmkwargs):
+        """
+            Constructor
+        """
+        super().__init__(*prmargs, **prmkwargs)

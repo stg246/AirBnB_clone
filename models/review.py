@@ -1,12 +1,19 @@
 #!/usr/bin/python3
-"""
-This module contains the Review Class that inherits from Basemodel
-"""
+""" Review module """
+
 
 from models.base_model import BaseModel
 
-class Review:
-    """This is the State class that define """
+
+class Review(BaseModel):
+    """ Review class """
+
     place_id = ""
     user_id = ""
     text = ""
+
+    def __init__(self, *prmargs, **prmkwargs):
+        """
+            Constructor
+        """
+        super().__init__(*prmargs, **prmkwargs)
